@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActionRequest	action.py	/^class ActionRequest(BaseModel):$/;"	c
+ActionResponse	action.py	/^class ActionResponse(BaseModel):$/;"	c
+app	action.py	/^app = FastAPI()$/;"	v
+app	main.py	/^app = FastAPI()$/;"	v
+description	action.py	/^          description="Processes the input based on the provided context and returns the result.")$/;"	v	class:ActionResponse
+perform_action	action.py	/^async def perform_action(request: ActionRequest):$/;"	f
+read_item	main.py	/^def read_item(item_id: int, q: Optional[str] = None):$/;"	f
+root	main.py	/^async def root():$/;"	f
